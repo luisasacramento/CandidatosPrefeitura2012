@@ -13,7 +13,7 @@ st.sidebar.info("MapReduce + Streamlit")
 
 pagina = st.sidebar.radio(
     "Navegação",
-    ["Análise Individual", "Comparação (futuro)"]
+    ["Análise Individual", "Comparação"]
 )
 
 st.sidebar.markdown("---")
@@ -97,7 +97,7 @@ if pagina == "Análise Individual":
 # =========================
 # PÁGINA: COMPARAÇÃO
 # =========================
-elif pagina == "Comparação (futuro)":
+elif pagina == "Comparação":
 
     st.title("Comparação entre Candidatos")
 
